@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/6290924/thumb/1.jpg");
+    font-family: 'Comic Sans MS';
+    color: #ddd;
+}
+*{
+  top: 0;
+  left: 0;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ .container {
+ display: flex;
+ align-items: center;
+
+} 
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: yellow;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: orange;
+    color: white;
+  }
+
+#myname {
+  text-align: right;
+  padding : 15px 30px 0 0;
+  font-size: 16px
+}
+
+#berdan {
+    justify-content: center;
+    margin: 100px 50px 75px 550px;
+    border-radius: 50%;
+    width: 15%;
+    position: center;
+}
+
+.motto {
+    margin: 0px 50px 60px 400px;
+    justify-content: center;
+}
+
+#motto {
+    font-size: 36px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#aboutme {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.abme {
+  width: 100%;
+  height: auto;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/6290924/thumb/1.jpg");
+}
+
+.certis {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/6290924/thumb/1.jpg");
+}
+
+.certis h2 {
+  font-size: 40px;
+  width: 100%;
+  color: yellow;
+}
+
+.certis p {
+  text-align: center;
+}
+
+.contact {
+  /* background-repeat: no-repeat; */
+  background-image: url("https://ak.picdn.net/shutterstock/videos/6290924/thumb/1.jpg");
+  /* border: 1px solid blue; */
+  /* margin: 35px 105px 70px 400px; */
+}
+
+#subscribe-links {
+  background-repeat: no-repeat;
+  margin: 35px 105px 70px 400px;
+  display: block;
+}
+
+.contact h2 {
+  font-size: 40px;
+  width: 100%;
+  color: yellow;
+}
+
+.contact p {
+  text-align: center;
+  font-size: 32px;
+}
+
+.contact a {
+  text-align: center;
+  margin: 5px;
+}
+
+/* Styling all social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #FD1D1D;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #0E76A8;
+  color: white;
+}
+
+.fa-github {
+  background: #211F1F;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff4301;
+  color: white;
+}
+
+#footer {
+  background: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
