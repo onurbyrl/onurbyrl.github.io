@@ -38,6 +38,11 @@ body {
     font-size: 17px;
     display: inline-block;
   }
+
+  #myname {
+    background-color: black;
+    color: white;
+  }
   
   /* Change the color of links on hover */
   .topnav a:hover {
@@ -151,7 +156,7 @@ body {
 
 @media only screen and (max-width: 470px) {
   .fa {
-    display: flex;
+    display: flexbox;
   }
 }
 
