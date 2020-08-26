@@ -80,7 +80,7 @@ body {
 #motto {
     font-size: 36px;
     text-align: center;
-    color: orange;
+    color: #05a8ff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -103,7 +103,7 @@ body {
 .certis h2 {
   font-size: 40px;
   width: 100%;
-  color: yellow;
+  color: #0fa1d6;
 }
 
 .certis p {
@@ -127,7 +127,7 @@ body {
 .contact h2 {
   font-size: 40px;
   width: 100%;
-  color: yellow;
+  color: #0fa1d6;
 }
 
 .contact p {
